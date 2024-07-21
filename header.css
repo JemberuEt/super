@@ -1,0 +1,369 @@
+
+body{
+background:#f1f7f9;
+
+
+           font-family: Roboto;
+margin:0;
+padding:0;
+   
+
+}
+
+.Contact{
+
+
+    border-bottom: 1px solid rgba(72,76,122,0.2);
+  background:#fff;   
+ display: flex;
+ justify-content: space-between;
+ margin:0px;
+ align-items: center;
+ padding:0px;
+} 
+.Contact ul, .Contact ul a{
+  text-decoration: none;
+ display: flex;
+ font-size:10px;
+ color:gray;
+ padding:0 3;
+ font-weight: 500;
+}
+.Contact .phone-email{
+ margin:5px;
+ list-style: none;
+ display: flex;
+ flex-wrap:wrap;
+ justify-content: space-between;
+ 
+
+}
+       .Contact li{
+     padding:0px 30px;
+     
+   }
+   .Contact li i{
+     padding:0px 3px;
+     
+   }
+       
+.nav-bar li{
+ padding:0px 30px;
+ 
+}
+.Contact .socail{
+ margin:5px;
+ list-style: none;
+ display: flex;
+flex-wrap:wrap; 
+}
+     .times-icon, .times{
+       display:none;
+       
+     }
+
+   
+   
+.meanu{
+background:#fff;
+ position:sticky;
+ top:-1;
+color: #98b913;
+ 
+margin:0px;
+ padding:2px;
+ display: flex;
+ justify-content: space-between;
+font-weight: 800;
+ align-items: center;
+box-shadow:0px 1px 3px #d1d1e0;
+}
+
+
+.meanu img{
+ width:55px;
+ height:55px;
+
+}
+
+.nav-bar{
+ display:flex;
+ font-weight: 800;
+ font-size: 20px;
+flex-direction:row;
+ list-style:none;
+ 
+}
+  .nav-bar li{
+    border-radius: 5px;
+  }
+.nav-bar li a, .Products{
+color: #98b913;;
+
+text-decoration:none;
+}
+.nav-bar li:hover, .nav-bar li a:hover{
+color:#696666;
+ 
+}
+
+   .ProductsChild li a{
+color:#ffff;
+
+   }
+   .ProductsChild li a:hover, .Products:hover{
+    color:#e0dbdb;
+    
+       }
+.logo{
+ display: flex;
+justify-content: space-between;
+align-items: center;
+color: #98b913;
+
+}
+.logo div{
+ font-size:20px;
+ margin:0px 10px;
+}
+.logo div div:nth-child(2){
+ font-size: 14px;
+text-align: center;
+}
+
+
+
+.container-tour{
+
+ border-radius:10px;
+ margin: 10px auto;
+ text-align:center;
+ background:#fff;
+
+
+}
+   .tour{
+
+     margin:10px auto;
+   display:flex;
+flex-wrap:wrap;
+   justify-content:center;
+   }
+.tour h3{
+ text-align:center;
+font-weight: 900;
+width: auto; 
+color: #98b913;
+
+}
+ .box{
+flex: 1;
+border-radius:5px;
+margin:10px;
+padding:0px;
+ box-shadow:0 0 5px #e6f9ff;
+ width:300px;
+ 
+}
+       .box p{
+       padding:20px;
+       font-family: Roboto;
+margin: auto;
+width:auto;
+line-height:1.5;
+color:#696666;
+font-size: 20spx;
+font-weight: 600;
+line-height: 1.8;
+     }
+  .box img{
+   padding:0px;
+   margin:0px;
+   width:300px;
+   height:250px;
+ }
+ .container-tour h3{
+   font-size:20px;
+   font-weight:900;
+   margin:5px;
+   color:#adce29;
+       line-height:2.4rem;
+ }
+ .container-tour .top-p{
+   width:auto;
+   font-size:12px;
+   color:gray;
+   font-weight:300;
+   margin:0 auto;
+  line-height:1rem; 
+ }
+ 
+ .box-for-sales{
+ display:flex;  
+ width:100%;
+ overflow:auto;
+ display:flex;
+ flex-wrap:wrap;
+ justify-content:center;
+
+ }
+
+ .box-sales-container{
+  background:#d1d1e0; 
+  border-radius:10px;
+ }
+ .box-for-sales ul{
+   list-style:none;
+   border:0.6px solid rgba(72,76,122,0.1);
+   border-radius:5px;
+   margin:4px;
+   padding:0px; 
+   flex:2px;
+   width:150px;
+   
+   border:0.5px solid #869c2c;
+   transition: 0.i5s;
+ }
+ 
+        .box-for-sales ul li{
+   color:#000;
+  font-size:12px; 
+  margin:12px;
+  line-height:23px;
+ }
+ 
+  .box-for-sales ul li:nth-child(1){
+    font-size:15px;
+    text-align:center;
+    font-weight:700;
+  }
+ 
+.box-for-sales ul li img{
+width:150px;
+border-radius:5px;
+height:70px;
+}
+
+
+ .ProductsChild{
+ 
+position: absolute;
+width: 270px;
+background-color:#696666;
+color:#ffff;
+
+text-align: center;
+border-radius: 5px;
+display:none;
+list-style:none;
+margin:35px 65px;
+padding: 0px;   
+ box-shadow: 1px 2px 2px  #e6f9ff;
+}
+
+
+ .showProductsChild{
+   display:block;
+ }
+.ProductsChild li{
+line-height:1;
+transition: 0.3s;
+padding: 5px;
+margin:4px 0px;
+
+
+}
+
+
+ .sort-desc{ 
+   transition: 0.1s;
+margin-left: 5px;
+position: absolute;
+ }
+
+ 
+.showsort-desc{
+margin-top: 5px;
+transform: rotate(180deg);
+}
+.body-part{
+border-radius: 3px;
+margin: 30px;
+ display: flex;
+
+justify-content: center;
+
+}
+
+ @media screen and (max-width: 600px) {
+
+   
+
+
+.nav-bar{
+margin:0;
+
+display:flex ;
+text-align: left;
+   flex-direction:column;
+
+   padding:10px 0px;
+position:fixed;
+transition: 0.2s ease-out;
+top:0;
+left:0px;
+background-color:#edeeee;
+box-shadow:1px 1px 3px 1px gray; 
+overflow: hidden;
+height:100%;
+width:0px;
+}
+
+
+   .meanu .nav-bar li{
+padding:5px 10px;
+border-bottom:solid white;
+margin:4;
+text-align: center;
+width:140px;
+   }
+   .show{
+ width:60%;
+overflow:visible;
+}
+.showProductsChild li {
+align-items: center;
+}
+.showProductsChild {
+width: 60%;
+ margin:50px 170px;
+     position: absolute;
+
+     }
+
+ .times-icon, .times{
+   display:block;
+   font-size:22px;
+   
+   font-weight:700;
+   position:absolute;
+left:88%;
+
+margin:10px auto;
+ }
+      
+.showsort-desc{
+margin-top: 5px;
+transform: rotate(-90deg);
+
+
+}
+
+   
+}
+.footer{
+text-align: center;
+
+}
+
+
